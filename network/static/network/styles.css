@@ -1,0 +1,66 @@
+#n1{
+    margin: 20px;
+    width: 50%;
+}
+
+.p-container{
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+.post-body{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.post-time{
+    font-size: small;
+    margin: 10px 0px;
+}
+
+.p1{
+    font-size: small;
+}
+
+.post-enc{
+    padding: 5px 15%
+}
+
+.fcon{
+    border-bottom: 1px gainsboro solid;
+    padding-bottom: 10px;
+}
+
+.edit-btn-view{
+    padding-left: 25px;
+}
+
+#pag{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+#profile-name{
+    padding: 5px 15%;
+}
+
+#pn1{
+    font-size: large;
+}
+
+#pn2{
+    font-size: smaller;
+}
+
+#follow-view{
+    padding: 5px 15%;
+}
+
+#btn-next{
+    margin-left: 10px;
+}
+
+#btn-prev{
+    margin-right: 10px;
+}

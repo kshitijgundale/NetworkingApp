@@ -1,0 +1,15 @@
+{% extends "network/layout.html" %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+<div id="new_post">
+    <span style="margin: 20px; font-size: 30px;">Create New Post</span>
+    <form action="{% url 'newpost' %}" method="POST">
+        <div id="n1">
+            {%csrf_token%}
+            {{form|crispy}}
+            <input type="submit" value="POST">
+        </div>
+    </form>
+</div>
+{% endblock %}
